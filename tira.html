@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marco Bordado</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <style>
+    /* Reset y móvil‑first */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  overflow-x: hidden; /* sin scroll horizontal */
+}
+
+/* Ancho del marco */
+:root {
+  --frame-width: 60px;
+}
+
+/* Contenedor fijo y recorte */
+.frame {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: var(--frame-width);
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Posición izquierda/derecha */
+.frame-left  { left: 0;  }
+.frame-right { right: 0; }
+
+/* Imagen rotada y tamaño controlado */
+.frame img {
+  position: absolute;
+  /* El ancho de la imagen será igual a la altura de la ventana: */
+  width: 100vh;
+  height: auto;        
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+}
+
+/* Rotaciones opuestas */
+.frame-left  img { transform: translate(-50%, -50%) rotate(90deg);  }
+.frame-right img { transform: translate(-50%, -50%) rotate(-90deg); }
+  
+/* Contenido central deja espacio para los marcos */
+.content {
+  margin: 20px var(--frame-width);
+  text-align: center;
+}
+.content h1 {
+  margin-bottom: 1rem;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Lado izquierdo -->
+  <div class="frame frame-left">
+    <img src="./assets/tirabordada.jpg" alt="Tira bordada">
+  </div>
+
+  <!-- Contenido central -->
+  <main class="content">
+    <h1>¡Bienvenido!</h1>
+    <p>Tu contenido aquí se muestra sin problemas y con marco bordado.</p>
+  </main>
+
+  <!-- Lado derecho -->
+  <div class="frame frame-right">
+    <img src="./assets/tirabordada.jpg" alt="Tira bordada">
+  </div>
+</body>
+</html>

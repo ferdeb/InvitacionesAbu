@@ -18,7 +18,7 @@ body
   color: black;
 }
 
-.uno
+.fullscreen 
 {
   width: 100vw;
   height: 100vh;
@@ -35,44 +35,25 @@ body
   align-items: center;
   justify-content: center;
 
-  font-size: 8rem;
+  font-size: 10rem;
 }
 
-.dos
+.nombre-uno
 {
-  width: 100vw;
-  height: 100vh;
+  font-size: 3.7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 4rem;
 }
 
-.tres
+.dos-frase
 {
-  width: 100vw;
-  height: 100vh;
+  font-size: 10rem;
 }
 
-.cuatro
-{
-  width: 100vw;
-  height: 100vh;
-}
-
-.cinco
-{
-  width: 100vw;
-  height: 100vh;
-}
-
-.seis
-{
-  width: 100vw;
-  height: 100vh;
-}
-
-.siete
-{
-  width: 100vw;
-  height: 100vh;
-}
 
 #Guard
 {
