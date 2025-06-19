@@ -24,36 +24,51 @@ body
   height: 100vh;
 }
 
-.uno-hibiscus
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hibiscus-uno
 {
   width: 100vw;
 }
 
 .titulo-uno
 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   font-size: 10rem;
 }
 
 .nombre-uno
 {
   font-size: 3.7rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   padding-top: 4rem;
 }
 
 .dos-frase
 {
-  font-size: 10rem;
+  font-size: 5rem;
+  margin-top: 10rem;
 }
 
+.dos-imagen
+{
+  border: 2px solid #FF0000;
+  width: 200px;
+  height: 200px;
+  margin-left: 12rem;
+}
+
+.tres-texto
+{
+  font-size: 5rem;
+}
+
+.cuatro-texto
+{
+  font-size: 5rem;
+}
 
 #Guard
 {
