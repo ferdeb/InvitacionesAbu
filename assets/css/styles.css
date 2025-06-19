@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --frame-width: 60px;
+}
+
 html 
 {
   font-size: 62.5%;
@@ -16,6 +20,8 @@ body
   font-weight: 400;
   font-style: normal;
   color: black;
+
+  overflow-x: hidden; /* sin scroll horizontal */
 }
 
 .fullscreen 
@@ -68,6 +74,11 @@ body
 .cuatro-texto
 {
   font-size: 5rem;
+}
+
+.cuatro-box
+{
+  margin-bottom: 10rem;
 }
 
 #Guard
