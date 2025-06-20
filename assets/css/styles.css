@@ -40,7 +40,8 @@ body
 .frame-right { right: 0; }
 
 /* Imagen rotada y tamaño controlado */
-.frame img {
+.frame img 
+{
   position: absolute;
   /* El ancho de la imagen será igual a la altura de la ventana: */
   width: 100vh;
@@ -52,10 +53,11 @@ body
 
 /* Rotaciones opuestas */
 .frame-left  img { transform: translate(-50%, -50%) rotate(90deg);  }
-.frame-right img { transform: translate(-50%, -50%) rotate(-90deg); }
+.frame-right img { transform: translate(-50%, -50%) rotate(90deg);  }
   
 /* Contenido central deja espacio para los marcos */
-.content {
+.content 
+{
   margin: 20px var(--frame-width);
   text-align: center;
 }
