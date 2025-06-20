@@ -24,48 +24,6 @@ body
   overflow-x: hidden; /* sin scroll horizontal */
 }
 
-
-/* Contenedor fijo y recorte */
-.frame {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: var(--frame-width);
-  overflow: hidden;
-  z-index: 10;
-}
-
-/* Posición izquierda/derecha */
-.frame-left  { left: 0;  }
-.frame-right { right: 0; }
-
-/* Imagen rotada y tamaño controlado */
-.frame img 
-{
-  position: absolute;
-  /* El ancho de la imagen será igual a la altura de la ventana: */
-  width: 100vh;
-  height: auto;        
-  top: 50%;
-  left: 50%;
-  transform-origin: center center;
-}
-
-/* Rotaciones opuestas */
-.frame-left  img { transform: translate(-50%, -50%) rotate(90deg);  }
-.frame-right img { transform: translate(-50%, -50%) rotate(90deg);  }
-  
-/* Contenido central deja espacio para los marcos */
-.content 
-{
-  margin: 20px var(--frame-width);
-  text-align: center;
-}
-.content h1 {
-  margin-bottom: 1rem;
-}
-
-
 .fullscreen 
 {
   width: 100vw;
@@ -76,22 +34,6 @@ body
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hibiscus-uno
-{
-  width: 100vw;
-}
-
-.titulo-uno
-{
-  font-size: 10rem;
-}
-
-.nombre-uno
-{
-  font-size: 3.7rem;
-  padding-top: 4rem;
 }
 
 .dos-frase
@@ -123,10 +65,10 @@ body
   margin-bottom: 10rem;
 }
 
-#Guard
+/* #Guard
 {
-    font-family: "Edu NSW ACT Cursive", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
