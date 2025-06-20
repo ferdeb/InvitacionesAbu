@@ -30,45 +30,26 @@ body
   height: 100vh;
 }
 
-.flex-center {
+.flex-center 
+{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.dos-frase
+.hibiscus-uno
 {
-  font-size: 5rem;
-  margin-top: 10rem;
+  width: 100vw;
 }
 
-.dos-imagen
+.titulo-uno
 {
-  border: 2px solid #FF0000;
-  width: 200px;
-  height: 200px;
-  margin-left: 12rem;
+  font-size: 10rem;
 }
 
-.tres-texto
+.nombre-uno
 {
-  font-size: 5rem;
+  font-size: 3.7rem;
+  padding-top: 4rem;
 }
 
-.cuatro-texto
-{
-  font-size: 5rem;
-}
-
-.cuatro-box
-{
-  margin-bottom: 10rem;
-}
-
-/* #Guard
-{
-  font-family: "Edu NSW ACT Cursive", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
