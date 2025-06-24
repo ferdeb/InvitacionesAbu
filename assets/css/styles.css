@@ -43,7 +43,7 @@ body
 
 .titulo-uno
 {
-  font-size: 10rem;
+  font-size: 9rem;
 }
 
 .nombre-uno
@@ -55,7 +55,7 @@ body
 .button
 {
   margin-top: 5rem;
-  font-size: 3rem;
+  font-size: 4rem;
   text-decoration: none;
-  color: rgb(191, 194, 37);
+  color: rgb(28, 185, 206);
 }
