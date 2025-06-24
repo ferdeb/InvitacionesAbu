@@ -129,3 +129,84 @@ body
   font-weight: 400;
   font-style: normal;
 } */
+
+/* --- Pases Invitación --- */
+.fullscreen.pases {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+
+  padding-top: 30rem;
+}
+
+.fullscreen.pases .pases-header p {
+  font-size: 4rem;
+  margin-bottom: .5rem;
+  color: #333;
+}
+
+.pases-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.pase {
+  width: 60px;
+  height: 90px;
+  background: linear-gradient(145deg, #fff, #f0f0f0);
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform .2s;
+}
+
+.pase:hover {
+  transform: translateY(-4px);
+}
+
+.pase span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #555;
+}
+
+/* Opcional: icono de pase detrás del número */
+.pase::before {
+  content: "🎫";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 1.2rem;
+  opacity: .6;
+}
+
+.pases-cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: .8rem 1.6rem;
+  font-size: 1.8rem;
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color .2s;
+}
+
+.pases-cta:hover {
+  background-color: #218838;
+}
+
+/* Responsive móvil */
+@media (max-width: 480px) {
+  .pase { width: 50px; height: 75px; }
+  .pase span { font-size: 2rem; }
+  .pases-header p { font-size: 2rem; }
+  .pases-cta { font-size: 1.6rem; padding: .6rem 1.2rem; }
+}
