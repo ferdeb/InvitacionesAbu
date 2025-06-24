@@ -227,3 +227,13 @@ body
   .pases-header p { font-size: 2rem; }
   .pases-cta { font-size: 1.6rem; padding: .6rem 1.2rem; }
 }
+
+.footer {
+  background-color: #f5f5f5; /* Gris claro */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Sombra superior suave */
+  font-size: 14px;
+  font-family: sans-serif;
+}
