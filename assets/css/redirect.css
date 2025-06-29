@@ -94,15 +94,17 @@ body
 {
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
   padding: 0.2rem;
   line-height: 1;
 }
-  .audio-player button:focus {
-    outline: 2px solid #007acc;
-    outline-offset: 2px;
-  }
+
+.audio-player button:focus 
+{
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+}
 
 .uno-texto
 {
