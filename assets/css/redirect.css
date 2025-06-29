@@ -1,4 +1,4 @@
-* 
+*
 {
   margin: 0;
   padding: 0;
@@ -9,13 +9,13 @@
   --frame-width: 60px;
 }
 
-html 
+html
 {
   font-size: 62.5%;
 }
 
 body
-{ 
+{
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
@@ -23,7 +23,7 @@ body
 }
 
 /* Contenedor fijo y recorte */
-.frame 
+.frame
 {
   position: fixed;
   top: 0;
@@ -38,12 +38,12 @@ body
 .frame-right { right: 0; }
 
 /* Imagen rotada y tamaño controlado */
-.frame img 
+.frame img
 {
   position: absolute;
   /* El ancho de la imagen será igual a la altura de la ventana: */
   width: 100vh;
-  height: auto;        
+  height: auto;
   top: 50%;
   left: 50%;
   transform-origin: center center;
@@ -52,20 +52,20 @@ body
 /* Rotaciones opuestas */
 .frame-left  img { transform: translate(-50%, -50%) rotate(90deg);  }
 .frame-right img { transform: translate(-50%, -50%) rotate(90deg);  }
-  
+
 /* Contenido central deja espacio para los marcos */
-.content 
+.content
 {
   margin: 20px var(--frame-width);
   text-align: center;
 }
 
-.content h1 
+.content h1
 {
   margin-bottom: 1rem;
 }
 
-.fullscreen 
+.fullscreen
 {
   width: 100vw;
   height: 100vh;
@@ -76,6 +76,33 @@ body
   align-items: center;
   justify-content: center;
 }
+
+/* Audio Player */
+
+.audio-player 
+{
+  gap: 0.5rem;
+}
+
+.audio-text 
+{
+  font-size: 2rem;
+  user-select: none;
+}
+  
+.audio-player button
+{
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.2rem;
+  line-height: 1;
+}
+  .audio-player button:focus {
+    outline: 2px solid #007acc;
+    outline-offset: 2px;
+  }
 
 .uno-texto
 {
