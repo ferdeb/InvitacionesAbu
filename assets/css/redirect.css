@@ -153,13 +153,22 @@ body
 .cuatro-titulo
 {
   font-size: 4.8rem;
-  padding-top: 10rem;
+}
+
+.cuatro-titulo__box
+{
+  padding-top: 12rem;
   padding-bottom: 22rem;
+}
+
+.cuatro-titulo__separacion
+{
+  padding-bottom: 1rem;
 }
 
 .cuatro-texto
 {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
 }
 
 .cinco-texto
