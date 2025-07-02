@@ -86,7 +86,7 @@ body
 
 .audio-text 
 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   user-select: none;
 }
   
@@ -109,14 +109,13 @@ body
 .uno-texto
 {
   font-size: 6rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .uno-imagen
 {
-  width: 200px;
-  height: 200px;
-  margin-left: 12rem;
+  max-width: 100%; 
+  height: auto;
 }
 
 .dos-texto
@@ -272,15 +271,6 @@ body
   color: #333;
   text-align: center;
   padding: 1.5rem;
-  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Sombra superior suave */
   font-size: 1.5rem;
   font-family: sans-serif;
 }
-
-/* #Guard
-{
-  font-family: "Edu NSW ACT Cursive", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
