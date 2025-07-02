@@ -91,7 +91,8 @@
     <p class="cuatro-titulo flex-center">de vestimenta</p>
    </div>
   
-    <p class="cuatro-texto flex-center">Te invitamos a vestir</p>
+    <p class="cuatro-texto flex-center">Te invitamos</p>
+    <p class="cuatro-texto flex-center">a vestir</p>
     <p class="cuatro-texto flex-center">colores tabasqueños</p>
     <p class="cuatro-texto flex-center">Excepto traje</p>
     <p class="cuatro-texto flex-center">blanco de gala</p>
@@ -136,27 +137,7 @@
     <p>Hecho con ❤️ y &lt;/&gt; por @ferdeb</p>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const audio = document.getElementById('audio');
-      const btn   = document.getElementById('playBtn');
-  
-      btn.addEventListener('click', () => {
-        if (audio.paused) {
-          audio.play();
-          btn.textContent = '⏸️';
-        } else {
-          audio.pause();
-          btn.textContent = '▶️';
-        }
-      });
-  
-      // Opcional: al terminar la canción, volver al ícono de play
-      audio.addEventListener('ended', () => {
-        btn.textContent = '▶️';
-      });
-    });
-  </script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
