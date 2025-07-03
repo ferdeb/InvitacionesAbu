@@ -1,7 +1,0 @@
-Comprobar el sitio antes de copiar
-
-Quitar las rutas relativas
-
-Organizar en pages
-
-Copiar el nuevo index
