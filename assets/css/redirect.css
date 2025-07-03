@@ -19,7 +19,7 @@ body
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
-  color: black;
+  color: #000000;
 }
 
 /* Contenedor fijo y recorte */
@@ -156,8 +156,8 @@ body
 
 .cuatro-titulo__box
 {
-  padding-top: 12rem;
-  padding-bottom: 22rem;
+  padding-top: 15rem;
+  padding-bottom: 10rem;
 }
 
 .cuatro-titulo__separacion

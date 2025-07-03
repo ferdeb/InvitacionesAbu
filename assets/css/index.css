@@ -12,8 +12,7 @@ html
 
 body
 {
-  background-color: black;
-  color: white;
+  background-color: #000000;
 }
 
 .claude
@@ -32,5 +31,7 @@ body
 
 .links a
 {
-  font-size: 3rem
+  font-size: 3rem;
+  text-decoration: none;
+  color: #ffffff;
 }
